@@ -1,4 +1,10 @@
-import { Component } from '@angular/core';
+import {HttpClient} from "@angular/common/http";
+import {IProduct} from "../models/prosucts";
+import {Observable} from "rxjs";
+import { Component, ViewChild } from '@angular/core';
+import { IonModal } from '@ionic/angular';
+import { OverlayEventDetail } from '@ionic/core/components';
+
 
 @Component({
   selector: 'app-home',
@@ -7,6 +13,11 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  constructor(
+    private http: HttpClient
+  ) {
+  }
+
+
 
 }

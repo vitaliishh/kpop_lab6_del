@@ -1,3 +1,7 @@
+.mt-400{
+  margin-top: 400px;
+}
+
 #container {
   text-align: center;
 
@@ -5,7 +9,7 @@
   left: 0;
   right: 0;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-40%);
 }
 
 #container strong {
@@ -25,3 +29,5 @@
 #container a {
   text-decoration: none;
 }
+
+
